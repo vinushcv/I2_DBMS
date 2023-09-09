@@ -78,3 +78,5 @@ alter table students rename to mystudents;
 ### OUTPUT:
 ![image](https://github.com/vinushcv/I2_DBMS/assets/113975318/7ea3b9ed-978a-4b30-b614-438b4eb2c5c1)
 
+### Result:
+Therefore student table is created and ddl commands are executed.
