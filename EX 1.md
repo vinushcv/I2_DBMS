@@ -22,37 +22,59 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
+```python
+create table students(rollno int,name varchar(30),age int,address varchar(50),phoneno int);
+```
 
 
 ### OUTPUT:
+![image](https://github.com/vinushcv/I2_DBMS/assets/113975318/4565e0bd-59ff-4430-8ffb-0b2b1985a367)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+```python
+alter table students add dept varchar(30);
+```
 ### OUTPUT:
+![image](https://github.com/vinushcv/I2_DBMS/assets/113975318/3cdc4a52-9d57-4ffe-8716-61bd794b154e)
+
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
+```python
+drop table mystudents;
 
-
+```
 ### OUTPUT:
+![image](https://github.com/vinushcv/I2_DBMS/assets/113975318/ae2994a0-f70d-448f-8dc4-c906be535cde)
+
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
+```python
+truncate table mystudents;
+```
 
 ### OUTPUT:
+![image](https://github.com/vinushcv/I2_DBMS/assets/113975318/d75cca6e-a583-4c1e-aa26-f2f0dd8611ef)
+
 
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
+```python
+alter table students rename to mystudents;
+```
 
 
 ### OUTPUT:
+![image](https://github.com/vinushcv/I2_DBMS/assets/113975318/7ea3b9ed-978a-4b30-b614-438b4eb2c5c1)
+
